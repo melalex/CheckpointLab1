@@ -1,0 +1,821 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD296B8B1D526986005C30F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD296B8A1D526986005C30F7 /* AppDelegate.m */; };
+		DD296B8E1D526986005C30F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD296B8D1D526986005C30F7 /* main.m */; };
+		DD296B901D526986005C30F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD296B8F1D526986005C30F7 /* Assets.xcassets */; };
+		DD296B931D526987005C30F7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD296B911D526987005C30F7 /* MainMenu.xib */; };
+		DD296B9E1D526987005C30F7 /* FamilyTreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD296B9D1D526987005C30F7 /* FamilyTreeTests.m */; };
+		DD296BA91D526987005C30F7 /* FamilyTreeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD296BA81D526987005C30F7 /* FamilyTreeUITests.m */; };
+		DD296BE41D526A7E005C30F7 /* MELAppDependencies.m in Sources */ = {isa = PBXBuildFile; fileRef = DD296BB71D526A7E005C30F7 /* MELAppDependencies.m */; };
+		DD296BE51D526A7E005C30F7 /* MELDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = DD296BB91D526A7E005C30F7 /* MELDataStore.m */; };
+		DD296BE61D526A7E005C30F7 /* MELFamilyInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = DD296BBB1D526A7E005C30F7 /* MELFamilyInteractor.m */; };
+		DD296BE71D526A7E005C30F7 /* MELFamilyPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = DD296BC01D526A7E005C30F7 /* MELFamilyPresenter.m */; };
+		DD296BE81D526A7E005C30F7 /* MELFamilyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = DD296BC21D526A7E005C30F7 /* MELFamilyWindow.m */; };
+		DD296BE91D526A7E005C30F7 /* MELFamilyWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD296BC31D526A7E005C30F7 /* MELFamilyWindow.xib */; };
+		DD296BEA1D526A7E005C30F7 /* MELFamilyWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = DD296BC51D526A7E005C30F7 /* MELFamilyWireframe.m */; };
+		DD296BED1D526A7E005C30F7 /* MELMainMenuInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = DD296BCA1D526A7E005C30F7 /* MELMainMenuInteractor.m */; };
+		DD296BEE1D526A7E005C30F7 /* MELMainMenuPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = DD296BCF1D526A7E005C30F7 /* MELMainMenuPresenter.m */; };
+		DD296BEF1D526A7E005C30F7 /* MELMainMenuWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = DD296BD11D526A7E005C30F7 /* MELMainMenuWireframe.m */; };
+		DD296BF01D526A7E005C30F7 /* MELPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = DD296BD31D526A7E005C30F7 /* MELPerson.m */; };
+		DD296BF11D526A7E005C30F7 /* MELPersonInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = DD296BD51D526A7E005C30F7 /* MELPersonInteractor.m */; };
+		DD296BF21D526A7E005C30F7 /* MELPersonPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = DD296BD81D526A7E005C30F7 /* MELPersonPresenter.m */; };
+		DD296BF31D526A7E005C30F7 /* MELPersonWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = DD296BDA1D526A7E005C30F7 /* MELPersonWindow.m */; };
+		DD296BF41D526A7E005C30F7 /* MELPersonWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD296BDB1D526A7E005C30F7 /* MELPersonWindow.xib */; };
+		DD296BF51D526A7E005C30F7 /* MELPersonWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = DD296BDD1D526A7E005C30F7 /* MELPersonWireframe.m */; };
+		DD296BF61D526A7E005C30F7 /* MELTree.m in Sources */ = {isa = PBXBuildFile; fileRef = DD296BDF1D526A7E005C30F7 /* MELTree.m */; };
+		DD296BF71D526A7E005C30F7 /* MELUpcommingPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = DD296BE11D526A7E005C30F7 /* MELUpcommingPerson.m */; };
+		DD296BF81D526A7E005C30F7 /* MELUpcommingTree.m in Sources */ = {isa = PBXBuildFile; fileRef = DD296BE31D526A7E005C30F7 /* MELUpcommingTree.m */; };
+		DDA3B9D41D57490B00A304BA /* MELAddChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA3B9D21D57490B00A304BA /* MELAddChildViewController.m */; };
+		DDA3B9D51D57490B00A304BA /* MELAddChildViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDA3B9D31D57490B00A304BA /* MELAddChildViewController.xib */; };
+		DDA3B9DA1D57599600A304BA /* MELPersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA3B9D81D57599600A304BA /* MELPersonViewController.m */; };
+		DDA3B9DB1D57599600A304BA /* MELPersonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDA3B9D91D57599600A304BA /* MELPersonViewController.xib */; };
+		DDA3B9ED1D58D40900A304BA /* MELDocumentView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA3B9EC1D58D40900A304BA /* MELDocumentView.m */; };
+		DDA3B9F01D58D89C00A304BA /* MELPersonNodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA3B9EF1D58D89C00A304BA /* MELPersonNodeView.m */; };
+		DDA3B9F31D591C1800A304BA /* MELConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA3B9F21D591C1800A304BA /* MELConnectionManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD296B9A1D526987005C30F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD296B7E1D526986005C30F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD296B851D526986005C30F7;
+			remoteInfo = FamilyTree;
+		};
+		DD296BA51D526987005C30F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD296B7E1D526986005C30F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD296B851D526986005C30F7;
+			remoteInfo = FamilyTree;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD296B861D526986005C30F7 /* FamilyTree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FamilyTree.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD296B891D526986005C30F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DD296B8A1D526986005C30F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DD296B8D1D526986005C30F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD296B8F1D526986005C30F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD296B921D526987005C30F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		DD296B941D526987005C30F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD296B991D526987005C30F7 /* FamilyTreeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FamilyTreeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD296B9D1D526987005C30F7 /* FamilyTreeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FamilyTreeTests.m; sourceTree = "<group>"; };
+		DD296B9F1D526987005C30F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD296BA41D526987005C30F7 /* FamilyTreeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FamilyTreeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD296BA81D526987005C30F7 /* FamilyTreeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FamilyTreeUITests.m; sourceTree = "<group>"; };
+		DD296BAA1D526987005C30F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD296BB61D526A7E005C30F7 /* MELAppDependencies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MELAppDependencies.h; sourceTree = "<group>"; };
+		DD296BB71D526A7E005C30F7 /* MELAppDependencies.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MELAppDependencies.m; sourceTree = "<group>"; };
+		DD296BB81D526A7E005C30F7 /* MELDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MELDataStore.h; sourceTree = "<group>"; };
+		DD296BB91D526A7E005C30F7 /* MELDataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MELDataStore.m; sourceTree = "<group>"; };
+		DD296BBA1D526A7E005C30F7 /* MELFamilyInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MELFamilyInteractor.h; sourceTree = "<group>"; };
+		DD296BBB1D526A7E005C30F7 /* MELFamilyInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MELFamilyInteractor.m; sourceTree = "<group>"; };
+		DD296BBC1D526A7E005C30F7 /* MELFamilyInteractorIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MELFamilyInteractorIO.h; sourceTree = "<group>"; };
+		DD296BBD1D526A7E005C30F7 /* MELFamilyInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MELFamilyInterface.h; sourceTree = "<group>"; };
+		DD296BBE1D526A7E005C30F7 /* MELFamilyModuleInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MELFamilyModuleInterface.h; sourceTree = "<group>"; };
+		DD296BBF1D526A7E005C30F7 /* MELFamilyPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MELFamilyPresenter.h; sourceTree = "<group>"; };
+		DD296BC01D526A7E005C30F7 /* MELFamilyPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MELFamilyPresenter.m; sourceTree = "<group>"; };
+		DD296BC11D526A7E005C30F7 /* MELFamilyWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MELFamilyWindow.h; sourceTree = "<group>"; };
+		DD296BC21D526A7E005C30F7 /* MELFamilyWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MELFamilyWindow.m; sourceTree = "<group>"; };
+		DD296BC31D526A7E005C30F7 /* MELFamilyWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MELFamilyWindow.xib; sourceTree = "<group>"; };
+		DD296BC41D526A7E005C30F7 /* MELFamilyWireframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MELFamilyWireframe.h; sourceTree = "<group>"; };
+		DD296BC51D526A7E005C30F7 /* MELFamilyWireframe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MELFamilyWireframe.m; sourceTree = "<group>"; };
+		DD296BC91D526A7E005C30F7 /* MELMainMenuInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MELMainMenuInteractor.h; sourceTree = "<group>"; };
+		DD296BCA1D526A7E005C30F7 /* MELMainMenuInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MELMainMenuInteractor.m; sourceTree = "<group>"; };
+		DD296BCB1D526A7E005C30F7 /* MELMainMenuInteractorIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MELMainMenuInteractorIO.h; sourceTree = "<group>"; };
+		DD296BCC1D526A7E005C30F7 /* MELMainMenuInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MELMainMenuInterface.h; sourceTree = "<group>"; };
+		DD296BCD1D526A7E005C30F7 /* MELMainMenuModuleInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MELMainMenuModuleInterface.h; sourceTree = "<group>"; };
+		DD296BCE1D526A7E005C30F7 /* MELMainMenuPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MELMainMenuPresenter.h; sourceTree = "<group>"; };
+		DD296BCF1D526A7E005C30F7 /* MELMainMenuPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MELMainMenuPresenter.m; sourceTree = "<group>"; };
+		DD296BD01D526A7E005C30F7 /* MELMainMenuWireframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MELMainMenuWireframe.h; sourceTree = "<group>"; };
+		DD296BD11D526A7E005C30F7 /* MELMainMenuWireframe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MELMainMenuWireframe.m; sourceTree = "<group>"; };
+		DD296BD21D526A7E005C30F7 /* MELPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MELPerson.h; sourceTree = "<group>"; };
+		DD296BD31D526A7E005C30F7 /* MELPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MELPerson.m; sourceTree = "<group>"; };
+		DD296BD41D526A7E005C30F7 /* MELPersonInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MELPersonInteractor.h; sourceTree = "<group>"; };
+		DD296BD51D526A7E005C30F7 /* MELPersonInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MELPersonInteractor.m; sourceTree = "<group>"; };
+		DD296BD61D526A7E005C30F7 /* MELPersonInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MELPersonInterface.h; sourceTree = "<group>"; };
+		DD296BD71D526A7E005C30F7 /* MELPersonPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MELPersonPresenter.h; sourceTree = "<group>"; };
+		DD296BD81D526A7E005C30F7 /* MELPersonPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MELPersonPresenter.m; sourceTree = "<group>"; };
+		DD296BD91D526A7E005C30F7 /* MELPersonWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MELPersonWindow.h; sourceTree = "<group>"; };
+		DD296BDA1D526A7E005C30F7 /* MELPersonWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MELPersonWindow.m; sourceTree = "<group>"; };
+		DD296BDB1D526A7E005C30F7 /* MELPersonWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MELPersonWindow.xib; sourceTree = "<group>"; };
+		DD296BDC1D526A7E005C30F7 /* MELPersonWireframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MELPersonWireframe.h; sourceTree = "<group>"; };
+		DD296BDD1D526A7E005C30F7 /* MELPersonWireframe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MELPersonWireframe.m; sourceTree = "<group>"; };
+		DD296BDE1D526A7E005C30F7 /* MELTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MELTree.h; sourceTree = "<group>"; };
+		DD296BDF1D526A7E005C30F7 /* MELTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MELTree.m; sourceTree = "<group>"; };
+		DD296BE01D526A7E005C30F7 /* MELUpcommingPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MELUpcommingPerson.h; sourceTree = "<group>"; };
+		DD296BE11D526A7E005C30F7 /* MELUpcommingPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MELUpcommingPerson.m; sourceTree = "<group>"; };
+		DD296BE21D526A7E005C30F7 /* MELUpcommingTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MELUpcommingTree.h; sourceTree = "<group>"; };
+		DD296BE31D526A7E005C30F7 /* MELUpcommingTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MELUpcommingTree.m; sourceTree = "<group>"; };
+		DD296C0A1D538C4C005C30F7 /* MELPersonModuleInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MELPersonModuleInterface.h; sourceTree = "<group>"; };
+		DD296C0B1D539258005C30F7 /* MELPersonInteractorIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MELPersonInteractorIO.h; sourceTree = "<group>"; };
+		DDA3B9D11D57490B00A304BA /* MELAddChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MELAddChildViewController.h; sourceTree = "<group>"; };
+		DDA3B9D21D57490B00A304BA /* MELAddChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MELAddChildViewController.m; sourceTree = "<group>"; };
+		DDA3B9D31D57490B00A304BA /* MELAddChildViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MELAddChildViewController.xib; sourceTree = "<group>"; };
+		DDA3B9D71D57599600A304BA /* MELPersonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MELPersonViewController.h; sourceTree = "<group>"; };
+		DDA3B9D81D57599600A304BA /* MELPersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MELPersonViewController.m; sourceTree = "<group>"; };
+		DDA3B9D91D57599600A304BA /* MELPersonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MELPersonViewController.xib; sourceTree = "<group>"; };
+		DDA3B9EB1D58D40900A304BA /* MELDocumentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MELDocumentView.h; sourceTree = "<group>"; };
+		DDA3B9EC1D58D40900A304BA /* MELDocumentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MELDocumentView.m; sourceTree = "<group>"; };
+		DDA3B9EE1D58D89C00A304BA /* MELPersonNodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MELPersonNodeView.h; sourceTree = "<group>"; };
+		DDA3B9EF1D58D89C00A304BA /* MELPersonNodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MELPersonNodeView.m; sourceTree = "<group>"; };
+		DDA3B9F11D591C1800A304BA /* MELConnectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MELConnectionManager.h; sourceTree = "<group>"; };
+		DDA3B9F21D591C1800A304BA /* MELConnectionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MELConnectionManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD296B831D526986005C30F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD296B961D526987005C30F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD296BA11D526987005C30F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD296B7D1D526986005C30F7 = {
+			isa = PBXGroup;
+			children = (
+				DD296B881D526986005C30F7 /* FamilyTree */,
+				DD296B9C1D526987005C30F7 /* FamilyTreeTests */,
+				DD296BA71D526987005C30F7 /* FamilyTreeUITests */,
+				DD296B871D526986005C30F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD296B871D526986005C30F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD296B861D526986005C30F7 /* FamilyTree.app */,
+				DD296B991D526987005C30F7 /* FamilyTreeTests.xctest */,
+				DD296BA41D526987005C30F7 /* FamilyTreeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD296B881D526986005C30F7 /* FamilyTree */ = {
+			isa = PBXGroup;
+			children = (
+				DD296BF91D526AB8005C30F7 /* Data Storage */,
+				DD296BFA1D526ACF005C30F7 /* MainMenu */,
+				DD296BFB1D526AE8005C30F7 /* Family */,
+				DD296BFC1D526AFA005C30F7 /* Person */,
+				DD296BB61D526A7E005C30F7 /* MELAppDependencies.h */,
+				DD296BB71D526A7E005C30F7 /* MELAppDependencies.m */,
+				DD296B8C1D526986005C30F7 /* Supporting Files */,
+			);
+			path = FamilyTree;
+			sourceTree = "<group>";
+		};
+		DD296B8C1D526986005C30F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD296B8F1D526986005C30F7 /* Assets.xcassets */,
+				DD296B941D526987005C30F7 /* Info.plist */,
+				DD296B8D1D526986005C30F7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD296B9C1D526987005C30F7 /* FamilyTreeTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD296B9D1D526987005C30F7 /* FamilyTreeTests.m */,
+				DD296B9F1D526987005C30F7 /* Info.plist */,
+			);
+			path = FamilyTreeTests;
+			sourceTree = "<group>";
+		};
+		DD296BA71D526987005C30F7 /* FamilyTreeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD296BA81D526987005C30F7 /* FamilyTreeUITests.m */,
+				DD296BAA1D526987005C30F7 /* Info.plist */,
+			);
+			path = FamilyTreeUITests;
+			sourceTree = "<group>";
+		};
+		DD296BF91D526AB8005C30F7 /* Data Storage */ = {
+			isa = PBXGroup;
+			children = (
+				DD296BB81D526A7E005C30F7 /* MELDataStore.h */,
+				DD296BB91D526A7E005C30F7 /* MELDataStore.m */,
+				DDA3B9F11D591C1800A304BA /* MELConnectionManager.h */,
+				DDA3B9F21D591C1800A304BA /* MELConnectionManager.m */,
+				DD296BD21D526A7E005C30F7 /* MELPerson.h */,
+				DD296BD31D526A7E005C30F7 /* MELPerson.m */,
+				DD296BDE1D526A7E005C30F7 /* MELTree.h */,
+				DD296BDF1D526A7E005C30F7 /* MELTree.m */,
+				DD296BE01D526A7E005C30F7 /* MELUpcommingPerson.h */,
+				DD296BE11D526A7E005C30F7 /* MELUpcommingPerson.m */,
+				DD296BE21D526A7E005C30F7 /* MELUpcommingTree.h */,
+				DD296BE31D526A7E005C30F7 /* MELUpcommingTree.m */,
+			);
+			name = "Data Storage";
+			sourceTree = "<group>";
+		};
+		DD296BFA1D526ACF005C30F7 /* MainMenu */ = {
+			isa = PBXGroup;
+			children = (
+				DD296BFF1D526B2E005C30F7 /* View */,
+				DD296BFE1D526B23005C30F7 /* Interactor */,
+				DD296BFD1D526B14005C30F7 /* Presenter */,
+				DD296C031D526B61005C30F7 /* Wireframe */,
+			);
+			name = MainMenu;
+			sourceTree = "<group>";
+		};
+		DD296BFB1D526AE8005C30F7 /* Family */ = {
+			isa = PBXGroup;
+			children = (
+				DD296C021D526B51005C30F7 /* View */,
+				DD296C011D526B44005C30F7 /* Interactor */,
+				DD296C001D526B3B005C30F7 /* Presenter */,
+				DD296C041D526B88005C30F7 /* Wireframe */,
+			);
+			name = Family;
+			sourceTree = "<group>";
+		};
+		DD296BFC1D526AFA005C30F7 /* Person */ = {
+			isa = PBXGroup;
+			children = (
+				DD296C081D526BBF005C30F7 /* View */,
+				DD296C071D526BB6005C30F7 /* Interactor */,
+				DD296C061D526BAE005C30F7 /* Presenter */,
+				DD296C051D526BA1005C30F7 /* Wireframe */,
+			);
+			name = Person;
+			sourceTree = "<group>";
+		};
+		DD296BFD1D526B14005C30F7 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				DD296BCD1D526A7E005C30F7 /* MELMainMenuModuleInterface.h */,
+				DD296BCE1D526A7E005C30F7 /* MELMainMenuPresenter.h */,
+				DD296BCF1D526A7E005C30F7 /* MELMainMenuPresenter.m */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		DD296BFE1D526B23005C30F7 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				DD296BCB1D526A7E005C30F7 /* MELMainMenuInteractorIO.h */,
+				DD296BC91D526A7E005C30F7 /* MELMainMenuInteractor.h */,
+				DD296BCA1D526A7E005C30F7 /* MELMainMenuInteractor.m */,
+			);
+			name = Interactor;
+			sourceTree = "<group>";
+		};
+		DD296BFF1D526B2E005C30F7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DD296BCC1D526A7E005C30F7 /* MELMainMenuInterface.h */,
+				DD296B891D526986005C30F7 /* AppDelegate.h */,
+				DD296B8A1D526986005C30F7 /* AppDelegate.m */,
+				DD296B911D526987005C30F7 /* MainMenu.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		DD296C001D526B3B005C30F7 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				DD296BBE1D526A7E005C30F7 /* MELFamilyModuleInterface.h */,
+				DD296BBF1D526A7E005C30F7 /* MELFamilyPresenter.h */,
+				DD296BC01D526A7E005C30F7 /* MELFamilyPresenter.m */,
+				DDA3B9EB1D58D40900A304BA /* MELDocumentView.h */,
+				DDA3B9EC1D58D40900A304BA /* MELDocumentView.m */,
+				DDA3B9EE1D58D89C00A304BA /* MELPersonNodeView.h */,
+				DDA3B9EF1D58D89C00A304BA /* MELPersonNodeView.m */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		DD296C011D526B44005C30F7 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				DD296BBC1D526A7E005C30F7 /* MELFamilyInteractorIO.h */,
+				DD296BBA1D526A7E005C30F7 /* MELFamilyInteractor.h */,
+				DD296BBB1D526A7E005C30F7 /* MELFamilyInteractor.m */,
+			);
+			name = Interactor;
+			sourceTree = "<group>";
+		};
+		DD296C021D526B51005C30F7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DD296BBD1D526A7E005C30F7 /* MELFamilyInterface.h */,
+				DD296BC11D526A7E005C30F7 /* MELFamilyWindow.h */,
+				DD296BC21D526A7E005C30F7 /* MELFamilyWindow.m */,
+				DD296BC31D526A7E005C30F7 /* MELFamilyWindow.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		DD296C031D526B61005C30F7 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				DD296BD01D526A7E005C30F7 /* MELMainMenuWireframe.h */,
+				DD296BD11D526A7E005C30F7 /* MELMainMenuWireframe.m */,
+			);
+			name = Wireframe;
+			sourceTree = "<group>";
+		};
+		DD296C041D526B88005C30F7 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				DD296BC41D526A7E005C30F7 /* MELFamilyWireframe.h */,
+				DD296BC51D526A7E005C30F7 /* MELFamilyWireframe.m */,
+			);
+			name = Wireframe;
+			sourceTree = "<group>";
+		};
+		DD296C051D526BA1005C30F7 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				DD296BDC1D526A7E005C30F7 /* MELPersonWireframe.h */,
+				DD296BDD1D526A7E005C30F7 /* MELPersonWireframe.m */,
+			);
+			name = Wireframe;
+			sourceTree = "<group>";
+		};
+		DD296C061D526BAE005C30F7 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				DD296C0A1D538C4C005C30F7 /* MELPersonModuleInterface.h */,
+				DD296BD71D526A7E005C30F7 /* MELPersonPresenter.h */,
+				DD296BD81D526A7E005C30F7 /* MELPersonPresenter.m */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		DD296C071D526BB6005C30F7 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				DD296C0B1D539258005C30F7 /* MELPersonInteractorIO.h */,
+				DD296BD41D526A7E005C30F7 /* MELPersonInteractor.h */,
+				DD296BD51D526A7E005C30F7 /* MELPersonInteractor.m */,
+			);
+			name = Interactor;
+			sourceTree = "<group>";
+		};
+		DD296C081D526BBF005C30F7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DDA3B9D61D57595C00A304BA /* Person View */,
+				DDA3B9D01D57489B00A304BA /* Add Child View */,
+				DD296BD61D526A7E005C30F7 /* MELPersonInterface.h */,
+				DD296BD91D526A7E005C30F7 /* MELPersonWindow.h */,
+				DD296BDA1D526A7E005C30F7 /* MELPersonWindow.m */,
+				DD296BDB1D526A7E005C30F7 /* MELPersonWindow.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		DDA3B9D01D57489B00A304BA /* Add Child View */ = {
+			isa = PBXGroup;
+			children = (
+				DDA3B9D11D57490B00A304BA /* MELAddChildViewController.h */,
+				DDA3B9D21D57490B00A304BA /* MELAddChildViewController.m */,
+				DDA3B9D31D57490B00A304BA /* MELAddChildViewController.xib */,
+			);
+			name = "Add Child View";
+			sourceTree = "<group>";
+		};
+		DDA3B9D61D57595C00A304BA /* Person View */ = {
+			isa = PBXGroup;
+			children = (
+				DDA3B9D71D57599600A304BA /* MELPersonViewController.h */,
+				DDA3B9D81D57599600A304BA /* MELPersonViewController.m */,
+				DDA3B9D91D57599600A304BA /* MELPersonViewController.xib */,
+			);
+			name = "Person View";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD296B851D526986005C30F7 /* FamilyTree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD296BAD1D526987005C30F7 /* Build configuration list for PBXNativeTarget "FamilyTree" */;
+			buildPhases = (
+				DD296B821D526986005C30F7 /* Sources */,
+				DD296B831D526986005C30F7 /* Frameworks */,
+				DD296B841D526986005C30F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FamilyTree;
+			productName = FamilyTree;
+			productReference = DD296B861D526986005C30F7 /* FamilyTree.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD296B981D526987005C30F7 /* FamilyTreeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD296BB01D526987005C30F7 /* Build configuration list for PBXNativeTarget "FamilyTreeTests" */;
+			buildPhases = (
+				DD296B951D526987005C30F7 /* Sources */,
+				DD296B961D526987005C30F7 /* Frameworks */,
+				DD296B971D526987005C30F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD296B9B1D526987005C30F7 /* PBXTargetDependency */,
+			);
+			name = FamilyTreeTests;
+			productName = FamilyTreeTests;
+			productReference = DD296B991D526987005C30F7 /* FamilyTreeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD296BA31D526987005C30F7 /* FamilyTreeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD296BB31D526987005C30F7 /* Build configuration list for PBXNativeTarget "FamilyTreeUITests" */;
+			buildPhases = (
+				DD296BA01D526987005C30F7 /* Sources */,
+				DD296BA11D526987005C30F7 /* Frameworks */,
+				DD296BA21D526987005C30F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD296BA61D526987005C30F7 /* PBXTargetDependency */,
+			);
+			name = FamilyTreeUITests;
+			productName = FamilyTreeUITests;
+			productReference = DD296BA41D526987005C30F7 /* FamilyTreeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD296B7E1D526986005C30F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Александр Мелащенко";
+				TargetAttributes = {
+					DD296B851D526986005C30F7 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					DD296B981D526987005C30F7 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DD296B851D526986005C30F7;
+					};
+					DD296BA31D526987005C30F7 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DD296B851D526986005C30F7;
+					};
+				};
+			};
+			buildConfigurationList = DD296B811D526986005C30F7 /* Build configuration list for PBXProject "FamilyTree" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD296B7D1D526986005C30F7;
+			productRefGroup = DD296B871D526986005C30F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD296B851D526986005C30F7 /* FamilyTree */,
+				DD296B981D526987005C30F7 /* FamilyTreeTests */,
+				DD296BA31D526987005C30F7 /* FamilyTreeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD296B841D526986005C30F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD296BE91D526A7E005C30F7 /* MELFamilyWindow.xib in Resources */,
+				DD296BF41D526A7E005C30F7 /* MELPersonWindow.xib in Resources */,
+				DDA3B9D51D57490B00A304BA /* MELAddChildViewController.xib in Resources */,
+				DD296B901D526986005C30F7 /* Assets.xcassets in Resources */,
+				DDA3B9DB1D57599600A304BA /* MELPersonViewController.xib in Resources */,
+				DD296B931D526987005C30F7 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD296B971D526987005C30F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD296BA21D526987005C30F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD296B821D526986005C30F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD296BE41D526A7E005C30F7 /* MELAppDependencies.m in Sources */,
+				DD296BF21D526A7E005C30F7 /* MELPersonPresenter.m in Sources */,
+				DDA3B9F31D591C1800A304BA /* MELConnectionManager.m in Sources */,
+				DDA3B9D41D57490B00A304BA /* MELAddChildViewController.m in Sources */,
+				DD296BF71D526A7E005C30F7 /* MELUpcommingPerson.m in Sources */,
+				DDA3B9F01D58D89C00A304BA /* MELPersonNodeView.m in Sources */,
+				DD296BF11D526A7E005C30F7 /* MELPersonInteractor.m in Sources */,
+				DD296BEA1D526A7E005C30F7 /* MELFamilyWireframe.m in Sources */,
+				DD296BE81D526A7E005C30F7 /* MELFamilyWindow.m in Sources */,
+				DD296BEE1D526A7E005C30F7 /* MELMainMenuPresenter.m in Sources */,
+				DD296BF01D526A7E005C30F7 /* MELPerson.m in Sources */,
+				DD296B8E1D526986005C30F7 /* main.m in Sources */,
+				DDA3B9ED1D58D40900A304BA /* MELDocumentView.m in Sources */,
+				DD296BF81D526A7E005C30F7 /* MELUpcommingTree.m in Sources */,
+				DD296BF31D526A7E005C30F7 /* MELPersonWindow.m in Sources */,
+				DD296BE51D526A7E005C30F7 /* MELDataStore.m in Sources */,
+				DDA3B9DA1D57599600A304BA /* MELPersonViewController.m in Sources */,
+				DD296BEF1D526A7E005C30F7 /* MELMainMenuWireframe.m in Sources */,
+				DD296BE61D526A7E005C30F7 /* MELFamilyInteractor.m in Sources */,
+				DD296BED1D526A7E005C30F7 /* MELMainMenuInteractor.m in Sources */,
+				DD296BF61D526A7E005C30F7 /* MELTree.m in Sources */,
+				DD296BF51D526A7E005C30F7 /* MELPersonWireframe.m in Sources */,
+				DD296B8B1D526986005C30F7 /* AppDelegate.m in Sources */,
+				DD296BE71D526A7E005C30F7 /* MELFamilyPresenter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD296B951D526987005C30F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD296B9E1D526987005C30F7 /* FamilyTreeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD296BA01D526987005C30F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD296BA91D526987005C30F7 /* FamilyTreeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD296B9B1D526987005C30F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD296B851D526986005C30F7 /* FamilyTree */;
+			targetProxy = DD296B9A1D526987005C30F7 /* PBXContainerItemProxy */;
+		};
+		DD296BA61D526987005C30F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD296B851D526986005C30F7 /* FamilyTree */;
+			targetProxy = DD296BA51D526987005C30F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD296B911D526987005C30F7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD296B921D526987005C30F7 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD296BAB1D526987005C30F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DD296BAC1D526987005C30F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DD296BAE1D526987005C30F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FamilyTree/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MEL.FamilyTree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DD296BAF1D526987005C30F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FamilyTree/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MEL.FamilyTree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DD296BB11D526987005C30F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FamilyTreeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MEL.FamilyTreeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FamilyTree.app/Contents/MacOS/FamilyTree";
+			};
+			name = Debug;
+		};
+		DD296BB21D526987005C30F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FamilyTreeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MEL.FamilyTreeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FamilyTree.app/Contents/MacOS/FamilyTree";
+			};
+			name = Release;
+		};
+		DD296BB41D526987005C30F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FamilyTreeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MEL.FamilyTreeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FamilyTree;
+			};
+			name = Debug;
+		};
+		DD296BB51D526987005C30F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FamilyTreeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MEL.FamilyTreeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FamilyTree;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD296B811D526986005C30F7 /* Build configuration list for PBXProject "FamilyTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD296BAB1D526987005C30F7 /* Debug */,
+				DD296BAC1D526987005C30F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD296BAD1D526987005C30F7 /* Build configuration list for PBXNativeTarget "FamilyTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD296BAE1D526987005C30F7 /* Debug */,
+				DD296BAF1D526987005C30F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD296BB01D526987005C30F7 /* Build configuration list for PBXNativeTarget "FamilyTreeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD296BB11D526987005C30F7 /* Debug */,
+				DD296BB21D526987005C30F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD296BB31D526987005C30F7 /* Build configuration list for PBXNativeTarget "FamilyTreeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD296BB41D526987005C30F7 /* Debug */,
+				DD296BB51D526987005C30F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD296B7E1D526986005C30F7 /* Project object */;
+}
